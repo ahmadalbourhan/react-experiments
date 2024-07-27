@@ -1,8 +1,7 @@
 import { useState } from 'react';
 
-interface DemoProps {}
 
-export default function Demo({}: DemoProps) {
+export default function Demo() {
   const [count, setCount] = useState(0);
 
   return (
